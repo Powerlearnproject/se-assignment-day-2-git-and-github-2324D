@@ -103,6 +103,44 @@ Enhance code quality.Facilitates code review and testing before intergration.
 Ecourages experimentation.Provides a safe environment for trying ideas.
 Maintains stability.Ensures that the main codebase remains stable and deployable.
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+Role of Pull Requests in GitHub Workflow
+Code Review:
+
+Pull requests allow team members to review code changes before they are integrated into the main branch. Reviewers can comment on specific lines of code, suggest improvements, and ensure that changes meet the project's standards.
+Discussion and Collaboration:
+
+They provide a platform for discussion about the proposed changes. Team members can ask questions, clarify intentions, and suggest alternative solutions. This collaborative process helps improve the quality of the code and ensures alignment with project goals.
+Automated Testing:
+
+Many repositories use Continuous Integration (CI) tools that automatically run tests and checks on the code in a pull request. This helps catch issues early and ensures that new changes do not break existing functionality.
+Documentation and Context:
+
+Pull requests often include descriptions and links to relevant issues or feature requests, providing context for the changes. This documentation helps reviewers understand the purpose and impact of the changes.
+Controlled Integration:
+
+By requiring approval and successful tests before merging, pull requests ensure that only reviewed and tested code becomes part of the main project. This helps maintain the stability and quality of the codebase
+
+Creating a pull request:
+
+Make changes and commit them
+Push the branch to github.
+Open a pull request on github.
+Provide a tittle and description.
+Assign reviewers and labels.
+Submit the pull request.
+
+Reviewing and collaborating on pull requests:
+
+Review the changes.
+Address feedback
+Respond to comments.
+
+Merging a pull request:
+
+Ensure approval and passes check.
+Merge the pull requests
+Confirm merge
+Clean up
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
